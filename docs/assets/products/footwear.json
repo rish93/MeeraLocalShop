@@ -1,0 +1,36 @@
+[ 
+ {
+    "productId":1,
+    "productName":"Juti",
+    "productCode": "123ab",            
+    "description":  "Colored Juti",           
+    "imageUrl": "assets/products/juti/coloredjuti.png"
+ },
+ {
+    "productId":2,
+    "productName":"Sandal",
+    "productCode": "123ab",            
+    "description":  "Cream Sandal",           
+    "imageUrl": "assets/products/sandal/creamsandal.png"
+ },
+ {
+    "productId":1,
+    "productName":"Juti",
+    "productCode": "123ab",            
+    "description":  "Colored Juti",           
+    "imageUrl": "assets/products/juti/coloredjuti.png"
+ },
+ {
+    "productId":1,
+    "productName":"Juti",
+    "productCode": "123ab",            
+    "description":  "Red Sandal",           
+    "imageUrl": "assets/products/sandal/redsandalheels.jpeg"
+ },
+ {
+    "productId":1,
+    "productName":"Juti",
+    "productCode": "123ab",            
+    "description":  "Shoes",           
+    "imageUrl": "assets/products/shoes/blueshoes.png"
+ }]
