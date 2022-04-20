@@ -1,0 +1,22 @@
+<ngb-carousel *ngIf="image1Src && image2Src">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="image1Src"  class="img-fluid"  alt="Random first slide">
+      </div>
+      <div class="carousel-caption" style="height: 410px;">
+        <h3>10% Off Your First Order</h3>
+        <p>Fashionable Footwears</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="image2Src"   class="img-fluid"  alt="Random second slide">
+      </div>
+      <div class="carousel-caption" style="height: 410px;">
+        <h3>10% Off Your First Order</h3>
+        <p>Reasonable Price</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+  <app-product-grid></app-product-grid>

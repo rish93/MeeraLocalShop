@@ -3,6 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "strictPropertyInitialization": false,
+    "resolveJsonModule": true,// to alolow import json
+    "esModuleInterop": true,//to import json
+
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

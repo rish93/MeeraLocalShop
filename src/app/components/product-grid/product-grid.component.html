@@ -1,0 +1,10 @@
+<!-- A list of images in a 3-column grid. -->
+<div>
+    <mat-grid-list cols="3" rowHeight="2:1">
+        <mat-grid-tile *ngFor='let i of products'>
+            <span>{{i.productName}}</span>
+            <img  src={{i.imageUrl}} class="tile-image" alt="beer">
+            <!-- <img src='data:image/jpeg;base64,{{ i.ImageData }}' class="tile-image"> -->
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
