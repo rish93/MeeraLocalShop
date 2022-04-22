@@ -16,6 +16,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { SidebarComponent } from './components/header/sidebar/sidebar.component';
 import { ProductGridComponent } from './components/product-grid/product-grid.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { MatCardModule } from "@angular/material/card";
+import { MatButtonModule } from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     AppRoutingModule,
     BrowserAnimationsModule,
     NgbModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule, 
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

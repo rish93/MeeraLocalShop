@@ -22,14 +22,14 @@
  },
  {
     "productId":1,
-    "productName":"Juti",
+    "productName":"Sandal",
     "productCode": "123ab",            
     "description":  "Red Sandal",           
     "imageUrl": "assets/products/sandal/redsandalheels.jpeg"
  },
  {
     "productId":1,
-    "productName":"Juti",
+    "productName":"Shoes",
     "productCode": "123ab",            
     "description":  "Shoes",           
     "imageUrl": "assets/products/shoes/blueshoes.png"

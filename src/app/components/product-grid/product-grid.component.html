@@ -1,10 +1,29 @@
 <!-- A list of images in a 3-column grid. -->
 <div>
-    <mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-list cols="3" ><!--rowHeight="1:1"-->
         <mat-grid-tile *ngFor='let i of products'>
-            <span>{{i.productName}}</span>
-            <img  src={{i.imageUrl}} class="tile-image" alt="beer">
-            <!-- <img src='data:image/jpeg;base64,{{ i.ImageData }}' class="tile-image"> -->
+          <mat-card class="my-card">
+                <mat-card-header>
+                   
+                    <mat-card-title>{{i.productName}}</mat-card-title>
+                    <mat-card-subtitle>
+                      
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <img style="width: 150px; height: 100px;"  src={{i.imageUrl}} class="tile-image" alt="beer">
+                <mat-card-content>
+                    {{i.description}}
+                </mat-card-content>
+          </mat-card> 
         </mat-grid-tile>
-    </mat-grid-list>
+      </mat-grid-list> 
+
+
+
+    <!-- <mat-grid-list cols="3" rowHeight="2:1">
+        <mat-grid-tile *ngFor='let i of products'>
+            
+            <img  src={{i.imageUrl}} class="tile-image" alt="beer">
+        </mat-grid-tile>
+    </mat-grid-list> -->
 </div>
